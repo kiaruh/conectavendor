@@ -90,4 +90,4 @@ dots.forEach((dot) => {
 
 setInterval(() => {
 	arrows[1].click();
-}, 1000 * 8);
+}, 1000 * 6);

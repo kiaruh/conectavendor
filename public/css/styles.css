@@ -3,14 +3,53 @@
 	padding: 0;
 	margin: 0;
 	border: none;
+	
 }
 
 body {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(36,15,0);
+	background: linear-gradient(90deg, rgba(36,15,0,0.9345939059217437) 0%, rgba(255,130,31,1) 29%, rgba(255,0,97,1) 100%);
+	
+}
+
+.nav-bar {
+	background: rgb(36,15,0);
+	background: linear-gradient(90deg, rgba(36,15,0,0.9345939059217437) 0%, rgba(255,130,31,1) 29%, rgba(255,0,97,1) 100%);
+	padding: 1%;
+	top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+.nav-bar div ul{
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	padding: 1rem;
+	justify-content: space-between;
+    flex-direction: row;
+	list-style: none;
+}
+.nav-bar div ul li{
+	margin: auto;
+}
+.nav-bar div ul a {
+	color: antiquewhite;
+	text-decoration: none;
+	font-weight:300;
+}
+.nav-icon {
+	height: 35px;
+}
+.nav-ul{
+	list-style: none;
+} 
+.nav-li-conecta {
+	color: antiquewhite;
+	font-size: 30px;
+	font-weight:600;
+}
+header {
+	margin-top: 65px;
 }
 
 #carousel {
